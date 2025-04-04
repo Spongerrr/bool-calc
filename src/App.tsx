@@ -38,7 +38,7 @@ const App: React.FC = () => {
 
         <div className='form'>
           <select value={numVars} onChange={(e) => setNumVars(parseInt(e.target.value))}>
-            <option value={3}>Задание 1 (3x8)</option>
+            <option value={3}>Задание 1 (3x7)</option>
             <option value={10}>Задание 2 (10x7)</option>
           </select>
 
